@@ -30,7 +30,7 @@ Files that don't match any category are placed in the "Others" folder.
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/Kan0n0n/bweeh-organize.git
+git clone https://github.com/Kan0n0n/BweehOrganize.git
 cd bweeh-organize
 ```
 
