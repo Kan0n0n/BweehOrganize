@@ -30,7 +30,7 @@ Files that don't match any category are placed in the "Others" folder.
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/bweeh-organize.git
+git clone https://github.com/Kan0n0n/bweeh-organize.git
 cd bweeh-organize
 ```
 
@@ -54,15 +54,12 @@ python organize.py -s /path/to/source/directory -t /path/to/target/directory
 ```bash
 # Organize files from Downloads folder to an Organized folder
 python organize.py -s "C:\Users\YourName\Downloads" -t "C:\Users\YourName\Organized"
-
-# On macOS/Linux
-python organize.py -s "/Users/YourName/Downloads" -t "/Users/YourName/Organized"
 ```
 
 ## How It Works
 
 1. **Scans** the source directory for files
-2. **Skips** system files (`desktop.ini`, `thumbs.db`, `.ds_store`) and directories
+2. **Skips** system files (`desktop.ini`, `thumbs.db`, `.ds_store`) 
 3. **Categorizes** files based on their extensions
 4. **Creates** organized folder structure: `Target/Category/YYYY-MM/`
 5. **Moves** files to their appropriate destinations
